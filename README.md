@@ -1,5 +1,4 @@
 <h1 align="center">
-  <br>
   <a href="https://github.com/lubien/messenger-keyboard">
     <img src="icons/icon128.png" alt="Messenger Keyboard">
   </a>
@@ -9,6 +8,10 @@
 </h1>
 
 <h4 align="center">Easily move between chats with only your keyboard</h4>
+
+<p align="center">
+  <img src="http://i.imgur.com/K2dbJyY.gif" alt="Usage"/>
+</p>
 
 Basic feature list:
 
