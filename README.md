@@ -23,3 +23,7 @@ Basic feature list:
 ![Lubien](https://avatars.githubusercontent.com/u/9121359?s=130)|
 ---|
 [Lubien](http://lubien.me)|
+
+## Thanks to
+
+- [Logo Makr](https://logomakr.com/) for the logo
