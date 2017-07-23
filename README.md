@@ -20,6 +20,11 @@ Basic feature list:
   * Jump <kbd>◄</kbd> to the first or <kbd>►</kbd> to the last (loaded) chat
   * Either <kbd>Enter</kbd> the chat or <kbd>Esc</kbd> stop moving
 
+## Install
+
+Unless you clone you can't **yet**.
+
+Damn you Chrome Web Store.
 
 ## Author
 
