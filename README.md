@@ -10,7 +10,7 @@
 <h4 align="center">Easily move between chats with only your keyboard</h4>
 
 <p align="center">
-  <img src="http://i.imgur.com/K2dbJyY.gif" alt="Usage"/>
+  <img src="http://i.imgur.com/IIDOhCi.gif" alt="Usage"/>
 </p>
 
 Basic feature list:
