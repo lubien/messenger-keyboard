@@ -4,6 +4,8 @@ const LEFT = 37
 const UP = 38
 const RIGHT = 39
 const DOWN = 40
+const KEY_J = 106
+const KEY_K = 107
 
 const MESSAGE_INPUT_SELECTOR = '._4rv3'
 const CHAT_GRID_SELECTOR = 'ul[role="grid"]'
@@ -20,6 +22,8 @@ const controls =
 , [UP]: upKey
 , [RIGHT]: rightKey
 , [DOWN]: downKey
+, [KEY_J]: downKey
+, [KEY_K]: upKey
 , [ENTER]: enterKey
 }
 
@@ -39,6 +43,7 @@ window.onload = () => {
   observer.observe($chatGrid, {childList: true})
   
   document.onkeydown = onkeydown
+  document.onkeypress = onkeypress
 }
 
 function onkeydown(ev) {
@@ -51,6 +56,15 @@ function onkeydown(ev) {
     }
     return
   }
+
+  if (controls.hasOwnProperty(keyCode))
+    controls[keyCode](ev)
+}
+
+function onkeypress(ev) {
+  const {keyCode} = ev
+
+  if (!inAction()) return
 
   if (controls.hasOwnProperty(keyCode))
     controls[keyCode](ev)

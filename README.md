@@ -19,6 +19,7 @@ Basic feature list:
   * Go <kbd>▲</kbd> and <kbd>▼</kbd> between chats
   * Jump <kbd>◄</kbd> to the first or <kbd>►</kbd> to the last (loaded) chat
   * Either <kbd>Enter</kbd> the chat or <kbd>Esc</kbd> stop moving
+  * You may also use vim styled mappings <kbd>j</kbd> and <kbd>k</kbd> to move
 
 ## Install
 
@@ -31,6 +32,10 @@ Damn you Chrome Web Store.
 ![Lubien](https://avatars.githubusercontent.com/u/9121359?s=130)|
 ---|
 [Lubien](http://lubien.me)|
+
+## Known Issues
+
+* Vimium prevents <kbd>j</kbd> and <kbd>k</kbd> from being used so you have to [disable them on messenger.com](https://github.com/philc/vimium/wiki/Disabling-Vimium#partially-disable-vimium-on-a-site).
 
 ## Thanks to
 
