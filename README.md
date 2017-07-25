@@ -23,9 +23,7 @@ Basic feature list:
 
 ## Install
 
-Unless you clone you can't **yet**.
-
-Damn you Chrome Web Store.
+* [Chrome Web Store](https://chrome.google.com/webstore/detail/messenger-keyboard/ckacahhcacfboibehhehiekknhjlagmd)
 
 ## Author
 
